@@ -4,7 +4,7 @@ int main()
    int N,n,max=0,i=0 ;
    int x[1001];
    scanf("%d",&N);
-   for(i=0;i<=10001;i++)
+   for(i=0;i<=1001;i++)
    {
       x[i]=0;
    }
@@ -13,7 +13,7 @@ int main()
     scanf("%d",&n);
     x[n]++;
    }
-for(i=0;i<10001;i++)
+for(i=0;i<1001;i++)
    {
       if(x[i]>max)
       {
