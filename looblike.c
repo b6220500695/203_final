@@ -18,6 +18,12 @@ int main()
       if(x[i]<max)
          max = x[i];
    }
-
-
+   for(i=0;i<10001;i++)
+   {
+      if(x[i]==max)
+         {
+            printf("%d",n);
+         }
+   }
+return 0;
 }
