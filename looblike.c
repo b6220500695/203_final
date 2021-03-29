@@ -13,6 +13,11 @@ int main()
     scanf("%d",&n);
     x[n]++;
    }
+   for(i=0;i<10001;i++)
+   {
+      if(x[i]<max)
+         max = x[i];
+   }
 
 
 }
