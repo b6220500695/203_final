@@ -7,6 +7,7 @@ int main()
    {
       {
       n=n/10;
+      n=(n%10)+1;
       printf("%d",n);
       }
       printf("%d",c);
