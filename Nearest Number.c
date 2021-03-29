@@ -8,17 +8,15 @@ int main()
       {
       n=n/10;
       k=n;
-      printf("%d",k%10);
+      printf("%d ",n%10);
       }
-      k=k*100;
-if(k>n)
+      k=n*10;
+     if(k>n)
       {
-      n=n/10;
-      k=n;
-      printf("%d",k%10+1);
+      k=k/100;
+      printf(" %d",k+1);
       }
-
-      printf("%d",c);
+      printf(" %d",c);
       }
    return 0;
 }
